@@ -14,4 +14,4 @@ Install PHP and the extensions required by Laravel using:
 
 Once that command completes, we can check that installation succeeded with `php -v`{{execute}}. It should report back that we are using some version of PHP 7.3.x.
 
-Once PHP is reporting back the correct version, we're ready to install a dependency manager in the next step.
+Now that PHP is installed with the correct version, we're ready to install a dependency manager.

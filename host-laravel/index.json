@@ -22,8 +22,12 @@
         "text": "step3.md"
       },
       {
-        "title": "Apache",
+        "title": "Apache Rewrite Module",
         "text": "step4.md"
+      },
+      {
+        "title": "Serving up Laravel",
+        "text": "step5.md"
       }
     ],
     "intro": {
@@ -34,7 +38,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu1804"
