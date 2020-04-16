@@ -9,7 +9,7 @@ Once installed, we need to add Composer's system wide `/vendor/bin` directory to
 Now, we should have the Laravel installer cli. We can check with `laravel -V`{{execute}}
 
 With the Laravel installer, we can now create a new `demo` app:
-`laravel new demo`
+`laravel new demo`{{execute}}
 
 This creates a new directory with the app, installs dependencies with Composer, generates an app key, and some other housekeeping.
 

@@ -17,18 +17,18 @@ Create and edit a file for our site:
 
 Within that file, copy and paste the following configuration:
 <pre class="file" data-target="clipboard">
-<VirtualHost *:80>
+&lt;VirtualHost *:80&gt;
         DocumentRoot /var/www/html/demo/public
-        <Directory /var/www/html/demo/public>
+        &lt;Directory /var/www/html/demo/public&gt;
                 Options Indexes FollowSymLinks MultiViews
                 AllowOverride All
                 Order allow,deny
                 allow from all
                 Require all granted
-        </Directory>
+        &lt;/Directory&gt;
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
+&lt;/VirtualHost&gt;
 </pre>
 
 We then need to disable the default virtual host using `sudo a2dissite 000-default.conf`{{execute}} and then enable ours with `sudo a2ensite laravel`{{execute}}.

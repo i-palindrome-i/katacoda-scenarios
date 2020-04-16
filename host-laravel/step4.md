@@ -1,7 +1,7 @@
 The first thing that we need to enable for Laravel to work with Apache is the `mod_rewrite` Apache module. This allows us to use clean URLs. Any files requested that aren't found in the filesystem get requested by the `index.php` controller.
 
 The command to enable the module is:
-`a2enmod rewrite`{{execute}}
+`sudo a2enmod rewrite`{{execute}}
 
 We then need to restart Apache:
 `sudo systemctl restart apache2`{{execute}}
