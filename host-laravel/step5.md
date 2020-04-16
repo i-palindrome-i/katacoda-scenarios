@@ -15,7 +15,7 @@ Now we need to tell Apache about our site. Let's move to the available sites dir
 Create and edit a file for our site:
 `sudo nano laravel.conf`{{execute}}
 
-Within that file, copy and paste the following configuration:
+Within that file, copy and paste the following configuration (due to some copy/paste artifact, you'll have to move the `</VirtualHost>` to its own line manually after you paste this):
 <pre class="file" data-target="clipboard">
 &lt;VirtualHost *:80&gt;
   DocumentRoot /var/www/html/demo/public
@@ -29,8 +29,6 @@ Within that file, copy and paste the following configuration:
   ErrorLog ${APACHE_LOG_DIR}/error.log
   CustomLog ${APACHE_LOG_DIR}/access.log combined
 &lt;/VirtualHost&gt;
-
-
 </pre>
 
 We then need to disable the default virtual host using `sudo a2dissite 000-default.conf`{{execute}} and then enable ours with `sudo a2ensite laravel`{{execute}}.

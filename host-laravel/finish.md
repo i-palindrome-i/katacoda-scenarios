@@ -1,0 +1,3 @@
+Congratulations on getting the basic site deployed. In the next lesson, we'll cover adding a database and using `php artisan`.
+
+There are a lot of pieces that have to be set up correctly to get the server set up correctly. If you'd prefer to worry less about these implementation details, [Laravel Forge](https://forge.laravel.com/) is always a great option for managing the server configuration for you.
