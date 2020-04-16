@@ -1,6 +1,6 @@
 In this course, we'll configure an Ubuntu server to serve a basic [Laravel](https://laravel.com) application. 
 
-During development, many Laravel developers rely on using [Laravel Homestead](https://laravel.com/docs/7.x/homestead), which provides a pre-packaged Vagrant box as a development environment. We'll walk through setting up a similar environment for production.
+<iframe style="width: 700px;height: 400px;" src="https://www.youtube-nocookie.com/embed/IxEpXoSZMk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Prerequisites:
 - Familiarity with Laravel
