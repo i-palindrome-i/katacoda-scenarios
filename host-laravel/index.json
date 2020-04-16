@@ -6,6 +6,10 @@
   "details": {
     "steps": [
       {
+        "title": "Users",
+        "text": "step0.md"
+      },
+      {
         "title": "PHP",
         "text": "step1.md"
       },
