@@ -28,6 +28,7 @@ Within that file, copy and paste the following configuration:
         &lt;/Directory&gt;
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
+
 &lt;/VirtualHost&gt;
 </pre>
 
